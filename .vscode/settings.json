@@ -1,0 +1,55 @@
+{
+  "editor.hover.delay": 1000,
+
+  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+
+  "vscode_custom_css.imports": [
+    // Replace your file location
+    "file:///D:/LWDT_Youtube/vscode-settings/.vscode/custom-vscode.css",
+    "file:///D:/LWDT_Youtube/vscode-settings/.vscode/vscode-script.js"
+  ],
+
+  "background.editor": {
+    "useFront": true,
+    "style": {
+      "background-position": "center",
+      "background-size": "50%",
+      "opacity": 0.2
+    },
+    "images": ["file:///D:/logo.svg"],
+    "interval": 0,
+    "random": false
+  },
+
+  "workbench.sideBar.location": "right",
+
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 25,
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.run": "onSave",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": { "when": "**" },
+    "*/.jsx": { "when": "**" }
+  },
+
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye"
+}
